@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>일기장</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>일기장</h1>
+      </header>
+      <main>
+        <form>
+          <input type="text" placeholder="제목" />
+          <textarea placeholder="내용"></textarea>
+          <button type="submit">저장(그림 생성!)</button>
+        </form>
+        <form>
+          <div class="art_section">
+            <img src="금천구청.jpg" alt="" />
+          </div>
+        </form>
+        <ul class="entries">
+          <li>
+            <div class="actions">
+              <h3>
+                일기 제목1(날짜) (클릭시 일기 펼쳐지고 내용과 그림이 나옴)
+              </h3>
+              <div class="diary_contents">
+                <p>일기 내용1</p>
+                <button class="edit-button">수정</button>
+                <button class="delete-button">삭제</button>
+              </div>
+            </div>
+          </li>
+          <!-- 일기가 추가될 때마다 이 형태의 li 요소가 생성됩니다. -->
+        </ul>
+      </main>
+    </div>
+  </body>
+</html>
